@@ -1,3 +1,3 @@
 def number_comparison(myticket, winningticket)
-0
+1
 end

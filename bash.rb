@@ -1,4 +1,4 @@
 def number_comparison()
-	nums = ["1357"]
+	win_num = ["1", "2", "4", "7"]
 
 end

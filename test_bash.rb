@@ -12,7 +12,10 @@ class TestBash < Minitest::Test
     end
 
     def test_that_array_contains_strings
-    	assert_equal("1357", number_comparison[0])
+    	assert_equal("1", number_comparison[0])
+    	assert_equal("2", number_comparison[1])
+    	assert_equal("4", number_comparison[2])
+    	assert_equal("7", number_comparison[3])
     end
 
 

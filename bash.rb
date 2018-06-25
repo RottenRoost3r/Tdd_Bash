@@ -1,4 +1,3 @@
-def number_comparison()
-	win_num = ["1", "2", "4", "7"]
-
+def number_comparison(ticket1, ticket2)
+0
 end

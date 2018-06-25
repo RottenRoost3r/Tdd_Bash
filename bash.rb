@@ -1,3 +1,3 @@
-def number_comparison(ticket1, ticket2)
+def number_comparison(myticket, winningticket)
 0
 end

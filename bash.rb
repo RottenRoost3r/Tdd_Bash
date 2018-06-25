@@ -1,2 +1,2 @@
-def number_comparison
+def number_comparison()
 end

@@ -7,4 +7,8 @@ class TestBash < Minitest::Test
         assert_equal(1, 1)
     end
 
+    def test_that_end_result_is_array
+    	assert_equal(Array, number_comparison().class)
+    end
+    
 end

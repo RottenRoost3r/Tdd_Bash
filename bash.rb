@@ -6,7 +6,7 @@ def number_comparison(myticket, winningticket)
 	matching_numbers = 0
 	winning_ticket.each_with_index do |num, index|
 		puts "num is #{num} and index is #{index}"
-		if num == myticket[index]
+		unless num == myticket[index]
 			matching_numbers += 1
 		end
 	end

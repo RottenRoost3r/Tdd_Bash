@@ -18,4 +18,8 @@ class TestBash < Minitest::Test
     def test_that_2_matches_returns_2
     	assert_equal(2, number_comparison("1111", "1122"))
     end
+
+    def test_if_numbers_are_off
+    	assert_equal([2,1,0], check_for_match_arr(["1222", "1235", "1234",], "1234"))
+	end
 end

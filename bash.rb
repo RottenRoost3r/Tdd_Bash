@@ -1,12 +1,20 @@
 def number_comparison(myticket, winningticket)
-	myticket = myticket.split('')
-	winningticket = winningticket.split('')
+	my_ticket = myticket.split('')
+	puts"my ticket is #{my_ticket}"
+	winning_ticket = winningticket.split('')
+	puts "winning ticket is #{winning_ticket}"
 	matching_numbers = 0
-	winningticket.each_with_index do |num, index|
+	winning_ticket.each_with_index do |num, index|
+		puts "num is #{num} and index is #{index}"
 		if num == myticket[index]
 			matching_numbers += 1
 		end
 	end
 	matching_numbers
+end
 
+
+def check_for_match_arr(myticketarray, winningticket)
+	
+	
 end

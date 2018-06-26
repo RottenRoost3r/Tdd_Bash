@@ -15,6 +15,9 @@ end
 
 
 def check_for_match_arr(myticketarray, winningticket)
-	
-	
+	empty = []
+	myticketarray.each do |num|
+		empty << number_comparison(num, winningticket)
+	end
+	empty
 end

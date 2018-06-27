@@ -19,15 +19,15 @@ class TestBash < Minitest::Test
     	assert_equal(2, number_comparison("1111", "1122"))
     end
 
- 	# def test_if_numbers_are_off
-  #   	assert_equal([2,1,0], check_for_match_arr(["1222", "1235", "1234",], "1234"))
-  #  end
+ 	def test_if_numbers_are_off
+    	assert_equal([2,1,0], check_for_match_arr_2(["1222", "1235", "1234",], "1234"))
+   end
    
 	def test_if_one_offs_return
 		assert_equal(["1235"], check_for_match_arr(["1222", "1235", "1234"], "1234"))
     end
 
-    def test_if_winners_equal_2
-    	assert_equal([2, 0], winnarr(["1234", "1234", "1244", "1255"] ["1234", "1299"]))
-    end
+    # def test_if_winners_equal_2
+    # 	assert_equal([2, 0], winnarr(["1234", "1234", "1244", "1255"] ["1234", "1299"]))
+    # end
 end

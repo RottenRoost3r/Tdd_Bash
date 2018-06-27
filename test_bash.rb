@@ -25,4 +25,9 @@ class TestBash < Minitest::Test
    
 	def test_if_one_offs_return
 		assert_equal(["1235"], check_for_match_arr(["1222", "1235", "1234"], "1234"))
-end end
+    end
+
+    def test_if_winners_equal_2
+    	assert_equal([2, 0], winnarr(["1234", "1234", "1244", "1255"] ["1234", "1299"]))
+    end
+end
